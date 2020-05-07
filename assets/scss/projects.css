@@ -1,0 +1,16 @@
+.project-quote {
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 5px; }
+
+h4 {
+  margin-top: 5px; }
+
+.project-image {
+  width: 100%;
+  border-radius: 25px; }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; }

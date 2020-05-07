@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hannes Wolfmayr - Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<a id="btnTop" class="hide" onclick="scrollToTop()"><img src="img/up.webp" alt="back to top button"/></a>
+<div class="container">
+    <nav class="topnav">
+        <div class="topnav-left">
+            <a class="title" href="/">Hannes Wolfmayr</a>
+        </div>
+        <div class="topnav-right">
+            <a class="active" href="/">Work</a>
+            <a href="about.html">About</a>
+            <a href="https://drive.google.com/file/d/1vCYGOAMHjGErldL2AdId2I9Py3lhM-xM/view?usp=sharing"
+               target="_blank">Resume</a>
+        </div>
+        <div class="topnav-right-burger">
+            <div id="burgermenu-toggle" class="burgermenu-toggle" onclick="toggleHamburger(this), scrollToTop()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="overlay" class="overlay">
+                <div class="overlay-content">
+                    <a class="active" href="index.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="https://drive.google.com/file/d/1vCYGOAMHjGErldL2AdId2I9Py3lhM-xM/view?usp=sharing"
+                       target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+                <h1>Hey there, my name is Hannes. Designer, student and sports enthusiast.</h1>
+                <p>Currently studying Communication and Knowledge Media at the University of Applied Sciences Hagenberg
+                    in Upper Austria. Most recently, I was working at
+                    <a class="link" href="https://www.neoom.group/" target="_blank">neoom group</a> as a UI/UX
+                    Designer and Frontend Developer. You also love design and want to chat with me?
+                    <a class="link" href="mailto:hello@hanneswolfmayr.com">Feel free to say hello</a>,
+                    I'm always happy to meet like-minded people.</p>
+            </div>
+            <div class="intro-image"></div>
+        </section>
+        <section class="projects">
+            <a href="fairdi.html">
+                <div class="project project1">
+                    <p>UI/UX Project</p>
+                    <h2>Fairdi</h2>
+                </div>
+            </a>
+            <a href="ntuity.html">
+                <div class="project project2">
+                    <p>Product by neoom group gmbh</p>
+                    <h2>Ntuity</h2>
+                </div>
+            </a>
+            <a href="portfolio.html">
+                <div class="project project3">
+                    <p>UI Redesign</p>
+                    <h2>Portfolio Evolution</h2>
+                </div>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://www.linkedin.com/in/hanneswolfmayr/" target="_blank">linkedin</a>
+            <a href="https://twitter.com/hnns_w" target="_blank">twitter</a>
+            <a href="mailto:hello@hanneswolfmayr.com" target="_blank">email</a>
+        </nav>
+    </footer>
+</div>
+<script language="javascript" type="text/javascript" src="main-min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.about-intro {
+  margin-top: 50px;
+
+  .about-image {
+    border-radius: 25px;
+    background-image: url("img/me.webp");
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.story, .mission{
+  margin-top: 40px;
+}

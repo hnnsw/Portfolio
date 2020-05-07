@@ -1,0 +1,1 @@
+function showScrollButton(){let o=document.getElementById("btnTop");document.body.scrollTop>20||document.documentElement.scrollTop>20?(o.classList.add("show"),o.classList.remove("hide")):(o.classList.add("hide"),o.classList.remove("show"))}function scrollToTop(){window.scrollTo({top:0,left:0,behavior:"smooth"})}window.onscroll=function(){showScrollButton()};
